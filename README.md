@@ -1,1 +1,4 @@
-Filter From list
+Java 8 
+Collections Framework
+
+Group by and filer of a list
