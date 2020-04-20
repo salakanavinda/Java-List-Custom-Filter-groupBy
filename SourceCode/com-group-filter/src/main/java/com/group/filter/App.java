@@ -1,4 +1,4 @@
-package com.groupby.filter.com_group_filter;
+package com.group.filter;
 
 /**
  * Hello world!
