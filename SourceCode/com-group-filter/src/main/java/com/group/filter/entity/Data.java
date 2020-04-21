@@ -1,7 +1,11 @@
 package com.group.filter.entity;
 
+/*
+ * The Data class
+ * */
 public class Data {
 
+	/*Instance variables*/
 	private String displayName;
 	
 	private String uuid;
@@ -10,8 +14,19 @@ public class Data {
 	
 	private double value;
 	
-	private boolean status;
+	private int status;
+	
+	
+    
+	public Data(String displayName, String uuid, int score, double value, int status) {
+		this.displayName = displayName;
+		this.uuid = uuid;
+		this.score = score;
+		this.value = value;
+		this.status = status;
+	}
 
+	/*Getters and setters*/
 	public String getDisplayName() {
 		return displayName;
 	}
@@ -44,11 +59,11 @@ public class Data {
 		this.value = value;
 	}
 
-	public boolean isStatus() {
+	public int getStatus() {
 		return status;
 	}
 
-	public void setStatus(boolean status) {
+	public void setStatus(int status) {
 		this.status = status;
 	}
 
